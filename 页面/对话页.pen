@@ -1,0 +1,1569 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "UpD5T",
+      "x": -217,
+      "y": -231,
+      "name": "Frame 1942980045",
+      "clip": true,
+      "width": 402,
+      "height": 874,
+      "fill": "#000000ff",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "MP348",
+          "x": 0,
+          "y": 0,
+          "name": "背景图容器",
+          "clip": true,
+          "width": 402,
+          "height": 784,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/0_1 2.png",
+            "mode": "fill"
+          },
+          "layout": "none"
+        },
+        {
+          "type": "frame",
+          "id": "llV7E",
+          "x": 278,
+          "y": 612,
+          "name": "用户气泡",
+          "fill": "#7259ffff",
+          "cornerRadius": [
+            22,
+            22,
+            6,
+            22
+          ],
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.5,
+            "fill": "#ffffff14"
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 17.5
+          },
+          "gap": 10,
+          "padding": [
+            12,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "TLjwk",
+              "name": "你在干嘛啊",
+              "fill": "#ffffffff",
+              "content": "你在干嘛啊",
+              "lineHeight": 1.3333333333333333,
+              "textAlign": "right",
+              "textAlignVertical": "middle",
+              "fontFamily": "PingFang SC",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fc8FA",
+          "x": 0,
+          "y": 724,
+          "name": "底部输入框",
+          "width": 402,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "E9pgP",
+              "name": "输入框顶部渐变蒙层",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1f1f1f00",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1e1e1e",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.5000000000000002
+                }
+              },
+              "width": "fill_container",
+              "height": 60,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              }
+            },
+            {
+              "type": "frame",
+              "id": "cMnhj",
+              "name": "输入框底部背景色",
+              "width": "fill_container",
+              "fill": "#1e1e1e",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                0,
+                12,
+                36,
+                12
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1WCGW",
+                  "name": "Frame 1942979599",
+                  "width": "fill_container",
+                  "fill": "#ffffff1a",
+                  "cornerRadius": 27,
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": 1,
+                    "fill": "#ffffff29"
+                  },
+                  "gap": 16,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6HFJr",
+                      "name": "输入框添加按钮",
+                      "fill": {
+                        "type": "color",
+                        "color": "#ffffff14",
+                        "enabled": false
+                      },
+                      "cornerRadius": 18,
+                      "stroke": {
+                        "align": "outside",
+                        "thickness": 1,
+                        "fill": "#ffffff0f"
+                      },
+                      "gap": 10,
+                      "padding": 5,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FNAyp",
+                          "name": "Frame 1942979686",
+                          "clip": true,
+                          "width": 20,
+                          "height": 20,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "N1wyp",
+                              "x": 4,
+                              "y": 10,
+                              "name": "Vector 2810",
+                              "geometry": "M0 0l9 0",
+                              "width": 12,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 1.399999976158142,
+                                "cap": "round",
+                                "fill": "#ffffffff"
+                              }
+                            },
+                            {
+                              "type": "path",
+                              "id": "VjE9C",
+                              "x": 10,
+                              "y": 4,
+                              "name": "Vector 2811",
+                              "rotation": -90.0000025044791,
+                              "geometry": "M0 0l9 0",
+                              "width": 12,
+                              "height": 0,
+                              "stroke": {
+                                "align": "center",
+                                "thickness": 1.399999976158142,
+                                "cap": "round",
+                                "fill": "#ffffffff"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "jdI8D",
+                      "name": "输入框底纹词",
+                      "fill": "#ffffff4d",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Type message...",
+                      "textAlignVertical": "middle",
+                      "fontFamily": "PingFang SC",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PLWmY",
+                      "name": "发送按钮（未点亮）",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 8,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "haIbf",
+                          "name": "Frame 1942979700",
+                          "enabled": false,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "C79ju",
+                              "name": "Frame 1942979693",
+                              "fill": {
+                                "type": "color",
+                                "color": "#ffffff14",
+                                "enabled": false
+                              },
+                              "cornerRadius": 18,
+                              "stroke": {
+                                "align": "outside",
+                                "thickness": 1,
+                                "fill": "#ffffff0f"
+                              },
+                              "gap": 10,
+                              "padding": 5,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "mzW7V",
+                                  "name": "Frame 1942979686",
+                                  "clip": true,
+                                  "width": 20,
+                                  "height": 20,
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1
+                                  },
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "Bf2j3",
+                                      "x": 2,
+                                      "y": 2,
+                                      "name": "Vector",
+                                      "geometry": "M3.53464 5.3439l-0.18541 0.42366c-0.02899 0.06888-0.07767 0.12768-0.13996 0.16904-0.06228 0.04135-0.13539 0.0634-0.21017 0.0634-0.07477 0-0.14788-0.02206-0.21017-0.0634-0.06228-0.04135-0.11097-0.10015-0.13996-0.16904l-0.18451-0.42366c-0.32424-0.75108-0.91834-1.35347-1.66512-1.68835l-0.56884-0.25366c-0.06884-0.0319-0.12712-0.0828-0.16796-0.14671-0.04084-0.06391-0.06254-0.13816-0.06254-0.21399 0-0.07583 0.0217-0.15008 0.06254-0.21399 0.04084-0.06391 0.09912-0.11481 0.16796-0.14671l0.53734-0.23926c0.76556-0.34339 1.36998-0.9674 1.68852-1.74323l0.18991-0.45784c0.02799-0.07082 0.07664-0.1316 0.13965-0.17443 0.063-0.04283 0.13744-0.06573 0.21363-0.06573 0.0762 0 0.15063 0.0229 0.21363 0.06573 0.063 0.04283 0.11166 0.1036 0.13965 0.17443l0.18901 0.45874c0.31895 0.77565 0.9237 1.39934 1.68942 1.74233l0.53824 0.23926c0.06884 0.0319 0.12712 0.0828 0.16796 0.14671 0.04084 0.06391 0.06254 0.13816 0.06254 0.21399 0 0.07583-0.0217 0.15008-0.06254 0.21399-0.04084 0.06391-0.09912 0.11481-0.16796 0.14671l-0.56974 0.25366c-0.74662 0.33467-1.3407 0.93761-1.66512 1.68835z",
+                                      "fill": "#ffffffff",
+                                      "width": 7,
+                                      "height": 7,
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 0.017578125
+                                      }
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "29kAz",
+                                      "x": 13.999836921691895,
+                                      "y": 4.500325679779053,
+                                      "name": "Vector 2596",
+                                      "geometry": "M0 3l4.00005-3 0 11-4.00005-3",
+                                      "width": 4.000049114227295,
+                                      "height": 11,
+                                      "stroke": {
+                                        "align": "center",
+                                        "thickness": 1.2000000476837158,
+                                        "cap": "round",
+                                        "fill": "#ffffffff"
+                                      }
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "GPIJk",
+                                      "x": 3.0000813007354736,
+                                      "y": 4.000650882720947,
+                                      "name": "Vector 2595",
+                                      "geometry": "M8 0l3 0 0 12-11 0 0-6",
+                                      "width": 11,
+                                      "height": 12,
+                                      "stroke": {
+                                        "align": "center",
+                                        "thickness": 1.2000000476837158,
+                                        "cap": "round",
+                                        "fill": "#ffffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QKbfu",
+                              "name": "Frame 1942979694",
+                              "fill": {
+                                "type": "color",
+                                "color": "#ffffff14",
+                                "enabled": false
+                              },
+                              "cornerRadius": 18,
+                              "stroke": {
+                                "align": "outside",
+                                "thickness": 1,
+                                "fill": "#ffffff0f"
+                              },
+                              "gap": 10,
+                              "padding": 5,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "kXujC",
+                                  "name": "Frame 1942979687",
+                                  "clip": true,
+                                  "width": 20,
+                                  "height": 20,
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1
+                                  },
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "HgwJE",
+                                      "x": 2,
+                                      "y": 2,
+                                      "name": "Vector",
+                                      "geometry": "M3.53464 5.3439l-0.18541 0.42366c-0.02899 0.06888-0.07767 0.12768-0.13996 0.16904-0.06228 0.04135-0.13539 0.0634-0.21017 0.0634-0.07477 0-0.14788-0.02206-0.21017-0.0634-0.06228-0.04135-0.11097-0.10015-0.13996-0.16904l-0.18451-0.42366c-0.32424-0.75108-0.91834-1.35347-1.66512-1.68835l-0.56884-0.25366c-0.06884-0.0319-0.12712-0.0828-0.16796-0.14671-0.04084-0.06391-0.06254-0.13816-0.06254-0.21399 0-0.07583 0.0217-0.15008 0.06254-0.21399 0.04084-0.06391 0.09912-0.11481 0.16796-0.14671l0.53734-0.23926c0.76556-0.34339 1.36998-0.9674 1.68852-1.74323l0.18991-0.45784c0.02799-0.07082 0.07664-0.1316 0.13965-0.17443 0.063-0.04283 0.13744-0.06573 0.21363-0.06573 0.0762 0 0.15063 0.0229 0.21363 0.06573 0.063 0.04283 0.11166 0.1036 0.13965 0.17443l0.18901 0.45874c0.31895 0.77565 0.9237 1.39934 1.68942 1.74233l0.53824 0.23926c0.06884 0.0319 0.12712 0.0828 0.16796 0.14671 0.04084 0.06391 0.06254 0.13816 0.06254 0.21399 0 0.07583-0.0217 0.15008-0.06254 0.21399-0.04084 0.06391-0.09912 0.11481-0.16796 0.14671l-0.56974 0.25366c-0.74662 0.33467-1.3407 0.93761-1.66512 1.68835z",
+                                      "fill": "#ffffffff",
+                                      "width": 7,
+                                      "height": 7,
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 0.017578125
+                                      }
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "WGs2d",
+                                      "x": 3.0000813007354736,
+                                      "y": 4.000650882720947,
+                                      "name": "Vector 2595",
+                                      "geometry": "M8.5 0l5.5 0 0 12-14 0 0-6",
+                                      "width": 13.999999046325684,
+                                      "height": 12,
+                                      "stroke": {
+                                        "align": "center",
+                                        "thickness": 1.2000000476837158,
+                                        "cap": "round",
+                                        "fill": "#ffffffff"
+                                      }
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "TUxlc",
+                                      "x": 16.99991798400879,
+                                      "y": 10,
+                                      "name": "Vector 2212",
+                                      "flipX": true,
+                                      "geometry": "M0 2.5l5-2.5 9 3.5",
+                                      "width": 13.999999046325684,
+                                      "height": 3.499999761581421,
+                                      "stroke": {
+                                        "align": "center",
+                                        "thickness": 1.2000000476837158,
+                                        "cap": "round",
+                                        "fill": "#ffffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qJmLh",
+                              "name": "Frame 1942979708",
+                              "fill": "#ffe62c14",
+                              "cornerRadius": 18,
+                              "stroke": {
+                                "align": "outside",
+                                "thickness": 1,
+                                "fill": "#ffe62c1f"
+                              },
+                              "gap": 10,
+                              "padding": 5,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "MWKuE",
+                                  "name": "Frame 1942979692",
+                                  "clip": true,
+                                  "width": 20,
+                                  "height": 20,
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1
+                                  },
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "2hXms",
+                                      "x": 2,
+                                      "y": 2,
+                                      "name": "Vector",
+                                      "geometry": "M3.53464 5.3439l-0.18541 0.42366c-0.02899 0.06888-0.07767 0.12768-0.13996 0.16904-0.06228 0.04135-0.13539 0.0634-0.21017 0.0634-0.07477 0-0.14788-0.02206-0.21017-0.0634-0.06228-0.04135-0.11097-0.10015-0.13996-0.16904l-0.18451-0.42366c-0.32424-0.75108-0.91834-1.35347-1.66512-1.68835l-0.56884-0.25366c-0.06884-0.0319-0.12712-0.0828-0.16796-0.14671-0.04084-0.06391-0.06254-0.13816-0.06254-0.21399 0-0.07583 0.0217-0.15008 0.06254-0.21399 0.04084-0.06391 0.09912-0.11481 0.16796-0.14671l0.53734-0.23926c0.76556-0.34339 1.36998-0.9674 1.68852-1.74323l0.18991-0.45784c0.02799-0.07082 0.07664-0.1316 0.13965-0.17443 0.063-0.04283 0.13744-0.06573 0.21363-0.06573 0.0762 0 0.15063 0.0229 0.21363 0.06573 0.063 0.04283 0.11166 0.1036 0.13965 0.17443l0.18901 0.45874c0.31895 0.77565 0.9237 1.39934 1.68942 1.74233l0.53824 0.23926c0.06884 0.0319 0.12712 0.0828 0.16796 0.14671 0.04084 0.06391 0.06254 0.13816 0.06254 0.21399 0 0.07583-0.0217 0.15008-0.06254 0.21399-0.04084 0.06391-0.09912 0.11481-0.16796 0.14671l-0.56974 0.25366c-0.74662 0.33467-1.3407 0.93761-1.66512 1.68835z",
+                                      "fill": "#ffe62cff",
+                                      "width": 7,
+                                      "height": 7,
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 0.017578125
+                                      }
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "lLt3Z",
+                                      "x": 17.000080108642578,
+                                      "y": 4.000650882720947,
+                                      "name": "Vector 2809",
+                                      "flipX": true,
+                                      "geometry": "M14 12l-14 0 0-12m14 12l0-6m-8-6l-6 0",
+                                      "width": 13.999999046325684,
+                                      "height": 12,
+                                      "stroke": {
+                                        "align": "center",
+                                        "thickness": 1.2000000476837158,
+                                        "cap": "round",
+                                        "fill": "#ffe62cff"
+                                      }
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "Pv3YW",
+                                      "x": 10,
+                                      "y": 12,
+                                      "name": "Vector 2808",
+                                      "flipX": true,
+                                      "geometry": "M0 0l1.5 1 1.5-1",
+                                      "width": 3,
+                                      "height": 2,
+                                      "stroke": {
+                                        "align": "center",
+                                        "thickness": 1.2000000476837158,
+                                        "cap": "round",
+                                        "fill": "#ffe62cff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "id": "FkcRJ",
+                          "name": "Group 1942978567",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "0nguu",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Ellipse 62",
+                              "sweepAngle": -360.00001001791264,
+                              "fill": "#ffffff14",
+                              "width": 30,
+                              "height": 30,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            },
+                            {
+                              "type": "group",
+                              "id": "jaR6Z",
+                              "x": 11,
+                              "y": 10,
+                              "name": "Group 1942976146",
+                              "opacity": 0.30000001192092896,
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "CDIE2",
+                                  "x": 4,
+                                  "y": 0,
+                                  "name": "Vector 824",
+                                  "geometry": "M0 11l0-11",
+                                  "width": 0,
+                                  "height": 10,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 2,
+                                    "cap": "round",
+                                    "fill": "#ffffffff"
+                                  }
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "zfZyK",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Vector 825",
+                                  "geometry": "M0 6l6-6 6 6",
+                                  "width": 8,
+                                  "height": 4,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 2,
+                                    "join": "round",
+                                    "cap": "round",
+                                    "fill": "#ffffffff"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8iqQO",
+          "x": 0,
+          "y": 0,
+          "name": "Frame 1942980046",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#0000004d",
+                "position": 1
+              },
+              {
+                "color": "#00000000",
+                "position": 0
+              }
+            ]
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4TJ9o",
+              "name": "Status bar",
+              "width": 402,
+              "gap": 154,
+              "padding": [
+                21,
+                16,
+                19,
+                16
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VwLBz",
+                  "name": "Time",
+                  "width": "fill_container",
+                  "height": 22,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JkXOX",
+                      "name": "Time",
+                      "fill": "#ffffffff",
+                      "content": "9:41",
+                      "lineHeight": 1.2941176470588236,
+                      "textAlign": "center",
+                      "fontFamily": "SF Pro",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mafGu",
+                  "name": "Levels",
+                  "width": "fill_container",
+                  "height": 22,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 7,
+                  "padding": [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "ZqmUC",
+                      "name": "Cellular Connection",
+                      "geometry": "M19.2 1.14623c0-0.63304-0.47756-1.14623-1.06667-1.14623l-1.06666 0c-0.5891 0-1.06667 0.51318-1.06667 1.14623l0 9.93396c0 0.63304 0.47756 1.14623 1.06667 1.14622l1.06666 0c0.5891 0 1.06667-0.51318 1.06667-1.14622l0-9.93396z m-7.43411 1.29905l1.06666 0c0.5891 0 1.06667 0.5255 1.06667 1.17374l0 7.43366c0 0.64824-0.47756 1.17374-1.06667 1.17373l-1.06666 0c-0.5891 0-1.06667-0.5255-1.06667-1.17373l0-7.43366c0-0.64824 0.47756-1.17374 1.06667-1.17374z m-4.33178 2.64905l-1.06666 0c-0.5891 0-1.06667 0.53219-1.06667 1.18868l0 4.75472c0 0.65649 0.47756 1.18868 1.06667 1.18867l1.06666 0.00001c0.5891 0 1.06667-0.53219 1.06667-1.18868l0-4.75472c0-0.65649-0.47756-1.18868-1.06667-1.18868z m-5.30078 2.44529l-1.06666 0c-0.5891 0-1.06667 0.52459-1.06667 1.1717l0 2.3434c0 0.64711 0.47756 1.1717 1.06667 1.1717l1.06666 0c0.5891 0 1.06667-0.52459 1.06667-1.1717l0-2.3434c0-0.64711-0.47756-1.1717-1.06667-1.1717z",
+                      "fillRule": "evenodd",
+                      "fill": "#ffffffff",
+                      "width": 19.200000762939453,
+                      "height": 12.226415634155273
+                    },
+                    {
+                      "type": "path",
+                      "id": "5c5cT",
+                      "name": "Wifi",
+                      "geometry": "M8.5713 2.46628c2.48711 0.00011 4.87912 0.92219 6.68163 2.57567 0.13573 0.12765 0.35269 0.12604 0.48637-0.00361l1.29749-1.26347c0.06769-0.06576 0.10543-0.15484 0.10487-0.24752-0.00056-0.09268-0.03938-0.18133-0.10786-0.24631-4.73101-4.37472-12.19473-4.37472-16.92574 0-0.06853 0.06494-0.10742 0.15356-0.10805 0.24624-0.00063 0.09268 0.03704 0.18178 0.10468 0.24759l1.29786 1.26347c0.1336 0.12985 0.35072 0.13146 0.48638 0.00361 1.80274-1.65359 4.19502-2.57567 6.68237-2.57567z m-0.00335 4.22028c1.35732-0.00008 2.6662 0.51165 3.67232 1.43578 0.13608 0.13116 0.35045 0.12831 0.4831-0.00641l1.28728-1.3193c0.06779-0.0692 0.1054-0.16308 0.10443-0.26063-0.00098-0.09755-0.04047-0.19063-0.10963-0.25843-3.06383-2.89085-7.80857-2.89085-10.8724 0-0.06921 0.06779-0.10869 0.16092-0.1096 0.2585-0.00091 0.09758 0.03684 0.19145 0.10477 0.26056l1.28691 1.3193c0.13265 0.13472 0.34702 0.13756 0.4831 0.00641 1.00545-0.92352 2.3133-1.43521 3.66972-1.43578z m2.52442 2.79355c0.00193 0.10535-0.03514 0.20692-0.10244 0.28073l-2.17666 2.45472c-0.06381 0.07214-0.1508 0.11274-0.24157 0.11275-0.09077 0-0.17776-0.0406-0.24157-0.11275l-2.17703-2.45472c-0.06725-0.07386-0.10425-0.17546-0.10225-0.28082 0.00199-0.10535 0.0428-0.20511 0.11279-0.27573 1.3901-1.31389 3.42602-1.31389 4.81612 0 0.06994 0.07067 0.11068 0.17047 0.11261 0.27582z",
+                      "fillRule": "evenodd",
+                      "fill": "#ffffffff",
+                      "width": 17.141666412353516,
+                      "height": 12.328306198120117
+                    },
+                    {
+                      "type": "group",
+                      "id": "tpppQ",
+                      "name": "Battery",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 4.300000190734863,
+                          "id": "NIiaQ",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Border",
+                          "opacity": 0.3499999940395355,
+                          "width": 25,
+                          "height": 13,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "Nvpkc",
+                          "x": 26,
+                          "y": 4.7811279296875,
+                          "name": "Cap",
+                          "opacity": 0.4000000059604645,
+                          "geometry": "M0 0l0 4c0.80473-0.33878 1.32804-1.12687 1.32804-2 0-0.87313-0.52331-1.66122-1.32804-2",
+                          "fill": "#ffffffff",
+                          "width": 1.328037977218628,
+                          "height": 4.075471878051758
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2.5,
+                          "id": "Ek2ql",
+                          "x": 2,
+                          "y": 2,
+                          "name": "Capacity",
+                          "fill": "#ffffffff",
+                          "width": 21,
+                          "height": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9fKiu",
+              "name": "顶部导航栏",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 298,
+              "padding": [
+                8,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z8d79",
+                  "name": "返回",
+                  "fill": "#0000004d",
+                  "cornerRadius": 29,
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": 1,
+                    "fill": "#ffffff14"
+                  },
+                  "effect": {
+                    "type": "background_blur",
+                    "radius": 26.25
+                  },
+                  "gap": 4,
+                  "padding": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aTRJm",
+                      "name": "Frame 1942979664",
+                      "clip": true,
+                      "width": 20,
+                      "height": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "m4wWI",
+                          "x": 4,
+                          "y": 5,
+                          "name": "Vector 2801",
+                          "geometry": "M5 0l-5 5 5 5",
+                          "width": 5,
+                          "height": 10,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 2,
+                            "join": "round",
+                            "cap": "round",
+                            "fill": "#ffffffff"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "c3BPg",
+                          "x": 4,
+                          "y": 10,
+                          "name": "Vector 2802",
+                          "geometry": "M0 0l12 0",
+                          "width": 12,
+                          "height": 0,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 2,
+                            "cap": "round",
+                            "fill": "#ffffffff"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F0yKv",
+                  "name": "菜单",
+                  "fill": "#0000004d",
+                  "cornerRadius": 29,
+                  "stroke": {
+                    "align": "outside",
+                    "thickness": 1,
+                    "fill": "#ffffff14"
+                  },
+                  "effect": {
+                    "type": "background_blur",
+                    "radius": 26.25
+                  },
+                  "gap": 4,
+                  "padding": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tr0jm",
+                      "name": "Frame 1942979665",
+                      "clip": true,
+                      "width": 20,
+                      "height": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "kO2dw",
+                          "x": 5,
+                          "y": 10,
+                          "name": "Vector 2802",
+                          "geometry": "M0 0l12 0",
+                          "width": 10,
+                          "height": 0,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 2,
+                            "cap": "round",
+                            "fill": "#ffffffff"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "L5NEd",
+                          "x": 5,
+                          "y": 6,
+                          "name": "Vector 2803",
+                          "geometry": "M0 0l12 0",
+                          "width": 10,
+                          "height": 0,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 2,
+                            "cap": "round",
+                            "fill": "#ffffffff"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "U8IxE",
+                          "x": 5,
+                          "y": 14,
+                          "name": "Vector 2804",
+                          "geometry": "M0 0l12 0",
+                          "width": 10,
+                          "height": 0,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 2,
+                            "cap": "round",
+                            "fill": "#ffffffff"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U5X9a",
+          "x": 16,
+          "y": 321,
+          "name": "角色开场卡片（有视频开场）",
+          "width": 370,
+          "fill": "#0000004d",
+          "cornerRadius": 16,
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.5,
+            "fill": "#ffffff14"
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 70
+          },
+          "gap": 12,
+          "padding": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AO2jC",
+              "name": "Frame 1942980039",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7U2CS",
+                  "name": "Frame 1942980040",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 8,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ul5Sj",
+                      "name": "Frame 1942980042",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "cFZE4",
+                          "name": "头像",
+                          "sweepAngle": -360.00001001791264,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/0_1 2.png",
+                            "mode": "fill"
+                          },
+                          "width": 36,
+                          "height": 36,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 0.6000000238418579,
+                            "fill": "#ffffff1f"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4aco8",
+                          "name": "Frame 1942980038",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gW3ck",
+                              "name": "角色名称",
+                              "fill": "#ffffffff",
+                              "content": "前女友林夕",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XoCGB",
+                              "name": "Frame 1942980041",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              },
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "WyHBd",
+                                  "name": "Frame 1942979472",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1
+                                  },
+                                  "gap": 2,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "CqtPe",
+                                      "name": "对话icon",
+                                      "opacity": 0.75,
+                                      "clip": true,
+                                      "width": 12,
+                                      "height": 12,
+                                      "fill": "#ffffffff",
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 0.5
+                                      },
+                                      "layout": "none"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "7YqAC",
+                                      "name": "对话数",
+                                      "fill": "#ffffff80",
+                                      "content": "285",
+                                      "lineHeight": 1.2,
+                                      "textAlignVertical": "middle",
+                                      "fontFamily": "PingFang SC",
+                                      "fontSize": 10,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "mxJjK",
+                                  "name": "Vector 2852",
+                                  "rotation": 0.000002504468701934682,
+                                  "geometry": "M0 0l0 6.5",
+                                  "width": 0,
+                                  "height": 8,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 1,
+                                    "cap": "round",
+                                    "fill": "#ffffff14"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "sA5Gb",
+                                  "name": "创作者名称",
+                                  "fill": "#ffffff80",
+                                  "content": "@宇宙第一帅神",
+                                  "lineHeight": 1.2,
+                                  "textAlignVertical": "middle",
+                                  "fontFamily": "PingFang SC",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PmCvF",
+                      "name": "关注按钮",
+                      "fill": "#ffffffff",
+                      "cornerRadius": 25,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#ffffff14"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wU1kk",
+                          "name": "关注",
+                          "fill": "#000000ff",
+                          "content": "关注",
+                          "lineHeight": 1.3333333333333333,
+                          "fontFamily": "PingFang SC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "path",
+                  "id": "q7LL6",
+                  "name": "分割线",
+                  "geometry": "M0 0l201 0",
+                  "width": "fill_container",
+                  "height": 0,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#ffffff14"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "NN7Pw",
+                  "name": "Frame 1942980044",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "SY7ar",
+                      "name": "Group 1942978555",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 8,
+                          "id": "kHFVa",
+                          "x": 0,
+                          "y": 0,
+                          "name": "视频容器",
+                          "fill": [
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "images/0_1 2.png",
+                              "mode": "fill"
+                            },
+                            "#00000033"
+                          ],
+                          "width": 60,
+                          "height": 80,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#ffffff1f"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WmR97",
+                          "x": 20,
+                          "y": 30,
+                          "name": "播放按钮",
+                          "clip": true,
+                          "width": 20,
+                          "height": 20,
+                          "fill": {
+                            "type": "color",
+                            "color": "#ffffffff",
+                            "enabled": false
+                          },
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "polygon",
+                              "polygonCount": 3,
+                              "cornerRadius": 3,
+                              "id": "Fc1mh",
+                              "x": 21.000001907348633,
+                              "y": -1.999998927116394,
+                              "name": "Polygon 8",
+                              "rotation": -90.00000250447808,
+                              "fill": "#ffffffff",
+                              "width": 24,
+                              "height": 24,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vKw4T",
+                      "name": "Frame 1942979852",
+                      "width": 274,
+                      "height": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "layout": "vertical",
+                      "gap": -16,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LZc6F",
+                          "name": "Frame 1942979670",
+                          "width": "fill_container",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ahaNx",
+                              "name": "简介文案",
+                              "fill": "#ffffffbf",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "简介: 在798的莫奈画展上，你看见一个女孩自言自语到：莫奈为什么能画出这样的惊世名作，你上前给她做了一番解释，得知她叫乔语然。哈哈哈,上前给她做了一番解释，得...",
+                              "fontFamily": "PingFang SC",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9U0z7",
+                          "name": "展开简介按钮",
+                          "width": 20,
+                          "height": 20,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "AdypJ",
+                              "x": -2,
+                              "y": -2,
+                              "name": "Rectangle 654",
+                              "fill": "#ffffff03",
+                              "width": 24,
+                              "height": 24,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            },
+                            {
+                              "type": "group",
+                              "id": "N1MLX",
+                              "x": 4,
+                              "y": 4,
+                              "name": "Group 1942978590",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "a5JRR",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Rectangle 56996",
+                                  "geometry": "M0 9l0 5m14-14l-5 0m-9 14l5 0m9-9l0-5",
+                                  "width": 12,
+                                  "height": 12,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 1.399999976158142,
+                                    "cap": "round",
+                                    "fill": "#ffffffff"
+                                  }
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "KRkB0",
+                                  "x": 0.8571428656578064,
+                                  "y": 0.8571428656578064,
+                                  "name": "Vector 2625",
+                                  "geometry": "M3 9l-3 3m12-12l-3 3m-4.5 4.5l-1.5 1.5m6-6l-1.5 1.5",
+                                  "width": 10.285714149475098,
+                                  "height": 10.285714149475098,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 1.399999976158142,
+                                    "cap": "round",
+                                    "fill": "#ffffffff"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OstEw",
+          "x": 50,
+          "y": 502,
+          "name": "角色说话气泡",
+          "width": 336,
+          "fill": "#00000080",
+          "cornerRadius": [
+            6,
+            22,
+            22,
+            22
+          ],
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.5,
+            "fill": "#ffffff14"
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 43.75
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": 16,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "fdCUU",
+              "name": "（林夕伸手抱住你，靠在你的身上）😭不要离开我好不好...（内心OS：这个小家伙不会以为我真的在乎吧）",
+              "fill": "#ffffffff",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "（林夕伸手抱住你，靠在你的身上）😭不要离开我好不好...（内心OS：这个小家伙不会以为我真的在乎吧）",
+              "textAlignVertical": "middle",
+              "fontFamily": "PingFang SC",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3IgIq",
+          "x": 50,
+          "y": 490,
+          "name": "语音播放按钮",
+          "fill": "#3a3a3abf",
+          "cornerRadius": 16,
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.5,
+            "fill": "#ffffff0d"
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 26.25
+          },
+          "gap": 6,
+          "padding": [
+            2,
+            8
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bqeub",
+              "name": "Group 1942974956",
+              "width": 20,
+              "height": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0.8333333134651184
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "Qfg46",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Rectangle 55285",
+                  "width": 20,
+                  "height": 20,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 0.8333333134651184
+                  }
+                },
+                {
+                  "type": "group",
+                  "id": "GBX9r",
+                  "x": 2.5,
+                  "y": 5.838541825622087,
+                  "name": "Group 1942974954",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "pSZ9O",
+                      "x": 0,
+                      "y": 3.3365885416569654,
+                      "name": "Vector 899",
+                      "rotation": 0.000007513458216011909,
+                      "geometry": "M0 0l0 6.5",
+                      "width": 0,
+                      "height": 1.6666666269302368,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 2.5,
+                        "cap": "round",
+                        "fill": "#ffffffff"
+                      }
+                    },
+                    {
+                      "type": "path",
+                      "id": "ZabKW",
+                      "x": 5,
+                      "y": 0,
+                      "name": "Vector 900",
+                      "rotation": -0.0000010018083655681336,
+                      "geometry": "M0 0l0 6.5",
+                      "width": 0,
+                      "height": 8.333333015441895,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 2.5,
+                        "cap": "round",
+                        "fill": "#ffffffff"
+                      }
+                    },
+                    {
+                      "type": "path",
+                      "id": "bSjnx",
+                      "x": 10,
+                      "y": 2.499999920517439,
+                      "name": "Vector 901",
+                      "rotation": 0.000005008937403869354,
+                      "geometry": "M0 0l0 6.5",
+                      "width": 0,
+                      "height": 3.3333332538604736,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 2.5,
+                        "cap": "round",
+                        "fill": "#ffffffff"
+                      }
+                    },
+                    {
+                      "type": "path",
+                      "id": "rXHoJ",
+                      "x": 15,
+                      "y": 3.3365885416569654,
+                      "name": "Vector 902",
+                      "rotation": -0.000005009041624285156,
+                      "geometry": "M0 0l0 6.5",
+                      "width": 0,
+                      "height": 1.6666666269302368,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 2.5,
+                        "cap": "round",
+                        "fill": "#ffffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "HhUyz",
+              "name": "96\"",
+              "fill": "#ffffffbf",
+              "content": "96\"",
+              "lineHeight": 1.6666666666666667,
+              "textAlignVertical": "middle",
+              "fontFamily": "PingFang SC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "ellipse",
+          "id": "HiWOD",
+          "x": 16,
+          "y": 487,
+          "name": "用户头像",
+          "sweepAngle": -360.00001001791264,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/0_1 2.png",
+            "mode": "fill"
+          },
+          "width": 30,
+          "height": 30,
+          "stroke": {
+            "align": "outside",
+            "thickness": 0.6000000238418579,
+            "fill": "#ffffff1f"
+          }
+        }
+      ]
+    }
+  ]
+}
