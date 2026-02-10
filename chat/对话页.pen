@@ -935,7 +935,7 @@
           "y": 321,
           "name": "角色开场卡片（有视频开场）",
           "width": 370,
-          "fill": "#0000004d",
+          "fill": "#7B2D8E4d",
           "cornerRadius": 16,
           "stroke": {
             "align": "inside",
