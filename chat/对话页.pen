@@ -1364,7 +1364,7 @@
           "y": 502,
           "name": "角色说话气泡",
           "width": 336,
-          "fill": "#00000080",
+          "fill": "#cc2a2a80",
           "cornerRadius": [
             6,
             22,
@@ -1374,7 +1374,7 @@
           "stroke": {
             "align": "inside",
             "thickness": 0.5,
-            "fill": "#ffffff14"
+            "fill": "#ff6b6b24"
           },
           "effect": {
             "type": "background_blur",
